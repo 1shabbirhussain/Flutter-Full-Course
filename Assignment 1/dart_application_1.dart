@@ -1,10 +1,10 @@
 // import 'package:dart_application_1/dart_application_1.dart' as dart_application_1;
 
-import 'dart:async';
-import 'dart:io';
-import 'dart:math';
+// import 'dart:async';
+// import 'dart:io';
+// import 'dart:math';
 
-void main() {
+// void main() {
 //   Q.1: Create two integer variables length and breadth and assign values then check if they are square values or rectangle values.
 // ie: if both values are equal then it's square otherwise rectangle.
 
@@ -214,4 +214,4 @@ void main() {
   // double celsius = 50;
   // double result = (celsius * 9 / 5) + 32;
   // print("Temperature in degree Fahrenheit is $result");
-}
+// }
