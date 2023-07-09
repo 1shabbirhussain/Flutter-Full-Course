@@ -34,19 +34,19 @@ void main() {
 
 // While loop practice
 
-  bool flag = false;
-  while (flag == false) {
-    print("Enter user name: ");
-    var username = stdin.readLineSync();
-    print("Enter Password: ");
-    var password = stdin.readLineSync();
-    if (username == "admin" && password == "admin") {
-      print("Login Successfull");
-      flag = true;
-      break;
-    } else {
-      print("Login Unseccessfull");
-    }
-  }
-  ;
+  // bool flag = false;
+  // while (flag == false) {
+  //   print("Enter user name: ");
+  //   var username = stdin.readLineSync();
+  //   print("Enter Password: ");
+  //   var password = stdin.readLineSync();
+  //   if (username == "admin" && password == "admin") {
+  //     print("Login Successfull");
+  //     flag = true;
+  //     break;
+  //   } else {
+  //     print("Login Unseccessfull");
+  //   }
+  // }
+  // ;
 }

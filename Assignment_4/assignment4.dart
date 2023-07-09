@@ -110,7 +110,7 @@ void main() {
 
   // for (int i = 1; i <= 5; i++) {
   //   for (int j = 1; j <= i; j++) {
-  //     print("*");
+  //     stdout.write("*");
   //   }
   //   print("");
   // }
@@ -119,7 +119,7 @@ void main() {
 
   // for (int i = 1; i <= 5; i++) {
   //   for (int j = 1; j <= i; j++) {
-  //     print(j);
+  //     stdout.write(j);
   //   }
   //   print("");
   // }
@@ -128,7 +128,7 @@ void main() {
 
   //   for (int i = 1; i <= 5; i++) {
   //   for (int j = 1; j <= i; j++) {
-  //     print(i);
+  //     stdout.write(i);
   //   }
   //   print("");
   // }
@@ -138,7 +138,7 @@ void main() {
   // int flag = 1;
   // for (int i = 1; i <= 5; i++) {
   //   for (int j = 1; j <= i; j++) {
-  //     print(flag);
+  //     stdout.write(flag);
   //     flag++;
   //   }
   //   print("");
@@ -148,9 +148,9 @@ void main() {
 
   // for (int i = 1; i <= 5; i++) {
   //   for (int j = 1; j <= i; j++) {
-  //     print("$j  ");
+  //     stdout.write(" $j");
   //   }
-  //   print("");
+  //   print(" ");
   // }
 
 // Q.16 Write a program to make such a pattern as a pyramid with an asterisk.
