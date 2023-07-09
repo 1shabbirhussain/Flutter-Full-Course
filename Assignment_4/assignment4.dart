@@ -146,20 +146,30 @@ void main() {
 
   // Q.15 Write a program to make a pyramid pattern with numbers increased by 1;
 
-  // for (int i = 1; i <= 5; i++) {
-  //   for (int j = 1; j <= i; j++) {
-  //     stdout.write(" $j");
+  // int rows = 5;
+  // int flag = 1;
+  // for (int i = 0; i < rows; i++) {
+  //   for (int j = (rows - i); j > 1; j--) {
+  //     stdout.write(" ");
   //   }
-  //   print(" ");
+  //   for (int j = 0; j <= i; j++) {
+  //     stdout.write("$flag ");
+  //     flag++;
+  //   }
+  //   stdout.writeln();
   // }
 
 // Q.16 Write a program to make such a pattern as a pyramid with an asterisk.
 
-  // for (int i = 1; i <= 5; i++) {
-  //   for (int j = 1; j <= i; j++) {
-  //     print("* ");
+  // int rows = 6;
+  // for (int i = 0; i < rows; i++) {
+  //   for (int j = (rows - i); j > 1; j--) {
+  //     stdout.write(" ");
   //   }
-  //   print("");
+  //   for (int j = 0; j <= i; j++) {
+  //     stdout.write("* ");
+  //   }
+  //   stdout.writeln();
   // }
 
 // Q.17 Write a program that asks the user for their email and password. If theemail and password match a predefined
